@@ -8,6 +8,8 @@
 
 ### Nem céljai:
 
+- Esetleges főváros változás esetén, nem tudjuk garantálni hogy időben frissítve lesz az adatbázisunk. 
+
 ## 3. Vágyálomrendszer leírása
 
 
