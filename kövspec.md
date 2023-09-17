@@ -22,17 +22,23 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 #### 3.3.1) Sajnos előfordul, hogy jó pár tanulónak nem úgy sikerül az első számonkérés mint azt ő elképzelte. Ilyenkor az oktatók javító lehetőséget szoktak biztosítani, amelynek a folyamata ugyanaz mint a 3.pontban végig tárgyaltak(csak valamennyivel kevesebb papírlapra van szükség).
 
 ## 4. Igényelt üzleti folyamatok modellje
-### 4.1) Online megjelenés 
-#### 4.1.1) 
-### 4.2) Kérdések, válaszok, térképek felvétele az adatbázisba
-### 4.3) Válaszok tárolása JSON dokumentumban
+### 4.1) Rendszer előkészületek
+#### 4.1.1) Országok és fővárosaik felvitele az adatbázisba
+#### 4.1.2) Kérdések és válaszok felvitele az adatbázisba
+### 4.2) Online megjelenés 
+#### 4.2.1) Előkészületek
+##### 4.2.1.1) A letisztult felületre érve, a felhasználó kiválasztja, hogy hány kérdést tegyen fel a rendszer illetve, hogy mennyi idő legyen a határidő 1-1 kérdésre.
+##### 4.2.1.2) A felhasználónak lehetősége van olyan játék indítására, amelyben előre megadott országok szerepelnek.
+#### 4.2.1) Játék folyamata
+##### 4.2.1.1) A megadott idő alatt van lehetősége a felhasználónak válaszolni a feltett kérésre
+##### 4.2.1.2) Ha válaszolt az összes kérdésre a felhasználó, akkor azonali kiértékelés történik
 
 ## 5. A rendszerre vonatkozó szabályok 
 A webes felület szabványos eszközökkel készüljön, html/css/javascript + python. Illetve minden esetben 4 válasz lehetőség, melyek közül csak és kizárólag 1 lesz helyes.
 
 ## 6. Követelménylista
 ### K01 Könnyen üzemeltethető rendszer
-### K02 Reszponzív dizájn 
+### K02 Reszponzív dizájn
 
 ## 7. Fogalomszótár
 
