@@ -63,5 +63,6 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 | **K07** |         Adat mozgathatóság         |
 
 ## 7. Fejlesztői igényspecifikáció:
-## 8. Fogalomszótár: 
+## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
+## 9. Fogalomszótár: 
 >*Moduláris:* Önállóan is működő modulokból (kisebb egységekből) álló.
