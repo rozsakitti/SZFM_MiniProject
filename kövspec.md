@@ -64,6 +64,4 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 
 ## 7. Fejlesztői igényspecifikáció:
 ## 8. Fogalomszótár: 
-
-
-
+>*Moduláris:* Önállóan is működő modulokból (kisebb egységekből) álló.
