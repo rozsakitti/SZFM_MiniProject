@@ -62,6 +62,8 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 | **K06** |     Grafikus költség kimutatás     |
 | **K07** |         Adat mozgathatóság         |
 
-## 7. Fogalomszótár
+## 7. Fejlesztői igényspecifikáció:
+## 8. Fogalomszótár: 
+
 
 
