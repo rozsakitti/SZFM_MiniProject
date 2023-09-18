@@ -37,8 +37,13 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 A webes felület szabványos eszközökkel készüljön, html/css/javascript + python. Illetve minden esetben 4 válasz lehetőség, melyek közül csak és kizárólag 1 lesz helyes.
 
 ## 6. Követelménylista
-### K01 Könnyen üzemeltethető rendszer
-### K02 Reszponzív dizájn
+* K01 Könnyen üzemeltethető rendszer
+* K02 Grafikus felhasználói felület
+* K03 Reszponzív dizájn
+* K04 Könnyű használat
+* K05 Biztonságos és lokális adattárolás
+* K06 Grafikus költség kimutatás
+* K07 Adat mozgathatóság
 
 ## 7. Fogalomszótár
 
