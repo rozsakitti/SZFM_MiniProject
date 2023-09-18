@@ -52,6 +52,8 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 - 5.4 Az oldal legyen moduláris - legyen lehetőség másféle kvízek megjelenítésére.
 
 ## 6. Követelménylista
+|               Követelménylista               |
+|---------|:----------------------------------:|
 | **K01** |   Könnyen üzemeltethető rendszer   |
 | **K02** |    Grafikus felhasználói felület   |
 | **K03** |          Reszponzív dizájn         |
