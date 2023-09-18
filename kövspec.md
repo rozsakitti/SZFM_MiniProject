@@ -34,7 +34,13 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 ##### 4.2.1.2) Ha válaszolt az összes kérdésre a felhasználó, akkor azonali kiértékelés történik
 
 ## 5. A rendszerre vonatkozó szabályok 
-A webes felület szabványos eszközökkel készüljön, html/css/javascript + python. Illetve minden esetben 4 válasz lehetőség, melyek közül csak és kizárólag 1 lesz helyes.
+- 5.1 A webes felület szabványos eszközökkel készüljön, html/css/javascript + python.
+
+- 5.2 Minden kérdésre legyen pontosan négy válaszlehetőség.
+
+- 5.3 Minden kérdésre pontosan egy helyes válasz legyen, ne legyen lehetőség több választ megjelölni.
+
+- 5.4 Az oldal legyen moduláris - legyen lehetőség másféle kvízek megjelenítésére.
 
 ## 6. Követelménylista
 * K01 Könnyen üzemeltethető rendszer
