@@ -52,7 +52,7 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 - 5.4 Az oldal legyen moduláris - legyen lehetőség másféle kvízek megjelenítésére.
 
 ## 6. Követelménylista
-|         |    Követelménylista                |        |
+|    ID   |            Név             |    Kifejtés    |
 |---------|:----------------------------------:|--------|
 | **K01** |   Könnyen üzemeltethető rendszer   |Felnőttek, gyerekek számára is egyaránt értelmezhető rendszer kialakítása. |
 | **K02** |    Grafikus felhasználói felület   |Színes felület létrehozása a szórakoztathatóság érdekében, a tankönyvek helyett számítógépes formában. |
