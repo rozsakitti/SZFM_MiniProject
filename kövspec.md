@@ -60,6 +60,25 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 | **K04** |          Könnyű használat          |Gyerekek számára is könnyedén értelmezhető felület kialakítása.  |
 
 ## 7. Fejlesztői igényspecifikáció:
+- 7.1 Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+
+- 7.2 A kommunikáció gördülékenységét biztosítani a megrendelővel.
+
+- 7.3 Megfelelően becsülhető fejlesztési idő.
+
+- 7.4 Homályos, kérdéses részek nélküli terv készítése.
+
+- 7.5 Bármiféle extra kérés vagy terv módosításról időben való tudosítás.
+
+- 7.6 Egy tiszta elképzelés arról hogy mit szeretnénk csinálni és ez alapján egy tervet készíteni.
+
+- 7.7 Nem lehetetlen határidők szabása, hogy a munka tempója normális legyen és ne legyen a minőség kárára.
+
+- 7.8 A szoftverben használt képek minősége megfelelő legyen és jogtiszták legyen.
+
+- 7.9 Pontos, precíz terv kidolgozása ami mentén haladva a fejlesztés zökkenőmentes haladása biztosítva lesz.
+
+- 7.10 Emberi erőforrás biztositása az állandó tesztelési folyamatokra.
 ## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 ## 9. Fogalomszótár: 
 >*Moduláris:* Önállóan is működő modulokból (kisebb egységekből) álló.
