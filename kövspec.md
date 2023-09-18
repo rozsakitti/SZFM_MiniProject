@@ -66,4 +66,5 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 ## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 ## 9. Fogalomszótár: 
 >*Moduláris:* Önállóan is működő modulokból (kisebb egységekből) álló.
+
 >*Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez. 
