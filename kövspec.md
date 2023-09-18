@@ -54,13 +54,10 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 ## 6. Követelménylista
 |         |    Követelménylista                |        |
 |---------|:----------------------------------:|--------|
-| **K01** |   Könnyen üzemeltethető rendszer   |Felnőttek, gyerekek számára is egyaránt értelmezhető rendszer kialakítása|
-| **K02** |    Grafikus felhasználói felület   |        |
-| **K03** |          Reszponzív dizájn         |        |
-| **K04** |          Könnyű használat          |        |
-| **K05** | Biztonságos és lokális adattárolás |        |
-| **K06** |     Grafikus költség kimutatás     |        |
-| **K07** |         Adat mozgathatóság         |        |
+| **K01** |   Könnyen üzemeltethető rendszer   |Felnőttek, gyerekek számára is egyaránt értelmezhető rendszer kialakítása. |
+| **K02** |    Grafikus felhasználói felület   |Színes felület létrehozása a szórakoztathatóság érdekében, a tankönyvek helyett számítógépes formában. |
+| **K03** |          Reszponzív dizájn         |Rugalmasan megjeleníthető legyen bármilyen eszközön. |
+| **K04** |          Könnyű használat          |Gyerekek számára is könnyedén értelmezhető felület kialakítása.  |
 
 ## 7. Fejlesztői igényspecifikáció:
 ## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
