@@ -20,6 +20,10 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 ## Követelmények
 
 ### Funkcionális követelmények
+-Kérdések, válaszok tárolása JSON fájlban.
+-Megfelelő működés webes eszközön.
+-Felhasználóbarát, könnyen értelmezhető felület kialakítása.
+-Helyes, helytelen válaszok megjelenítése.
 
 ### Nem funkcionális követelmények
 
