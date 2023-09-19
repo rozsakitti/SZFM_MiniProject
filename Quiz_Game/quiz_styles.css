@@ -1,0 +1,68 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.314); 
+    border-radius: 50px;
+    padding: 80px;
+}
+
+.title-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quiz-head{
+    font-size: 1.5em;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.start-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #1b5605;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+
+.start-button:hover {
+cursor: pointer;
+box-shadow: 0 0.4rem 1.4rem 0 rgba(21, 255, 0, 0.579);
+transition: transform 100ms;
+transform: scale(1.08)
+}
+
+.start-button[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.quiz-title {
+    font-size: 2em;
+    margin: 0;
+    text-align: center; 
+    color: #ffffff; /* Fehér szín */
+}
+
+

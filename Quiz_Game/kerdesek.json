@@ -1,0 +1,227 @@
+[{
+      "question": "Mi a fővárosa Albániának?",
+      "correctAnswer": "Tirana",
+      "wrongAnswers": ["Durrës", "Vlorë", "Shkodër"]
+    },
+    {
+      "question": "Mi a fővárosa Andorrának?",
+      "correctAnswer": "Andorra la Vella",
+      "wrongAnswers": ["Escaldes-Engordany", "Encamp", "La Massana"]
+    },
+    {
+      "question": "Mi a fővárosa Ausztriának?",
+      "correctAnswer": "Bécs",
+      "wrongAnswers": ["Graz", "Linz", "Salzburg"]
+    },
+    {
+      "question": "Mi a fővárosa Belgiumnak?",
+      "correctAnswer": "Brüsszel",
+      "wrongAnswers": ["Antwerpen", "Gent", "Charleroi"]
+    },
+    {
+      "question": "Mi a fővárosa Bosznia és Hercegovinának?",
+      "correctAnswer": "Szarajevo",
+      "wrongAnswers": ["Banja Luka", "Tuzla", "Zenica"]
+    },
+    {
+      "question": "Mi a fővárosa Bulgáriának?",
+      "correctAnswer": "Szófia",
+      "wrongAnswers": ["Plovdiv", "Varna", "Burgasz"]
+    },
+    {
+      "question": "Mi a fővárosa Ciprusnak?",
+      "correctAnswer": "Nicosia",
+      "wrongAnswers": ["Limassol", "Larnaka", "Paphos"]
+    },
+    {
+      "question": "Mi a fővárosa Csehországnak?",
+      "correctAnswer": "Prága",
+      "wrongAnswers": ["Brno", "Ostrava", "Plzeň"]
+    },
+    {
+      "question": "Mi a fővárosa Dániának?",
+      "correctAnswer": "Koppenhága",
+      "wrongAnswers": ["Aarhus", "Odense", "Aalborg"]
+    },
+    {
+        "question": "Mi a fővárosa Egyesült Királyság",
+        "correctAnswer": "London",
+        "wrongAnswers": ["Birmingham", "Glasgow", "Manchester"]
+    },
+    {
+      "question": "Mi a fővárosa Észtországnak?",
+      "correctAnswer": "Tallinn",
+      "wrongAnswers": ["Tartu", "Narva", "Pärnu"]
+    },
+    {
+        "question": "Mi a fővárosa Fehéroroszországnak?",
+        "correctAnswer": "Minszk",
+        "wrongAnswers": ["Homel", "Breszt", "Orsa"]
+    },
+    {
+      "question": "Mi a fővárosa Finnországnak?",
+      "correctAnswer": "Helsinki",
+      "wrongAnswers": ["Tampere", "Espoo", "Vantaa"]
+    },
+    {
+      "question": "Mi a fővárosa Franciaországnak?",
+      "correctAnswer": "Párizs",
+      "wrongAnswers": ["Marseille", "Lyon", "Toulouse"]
+    },
+    {
+      "question": "Mi a fővárosa Görögországnak?",
+      "correctAnswer": "Athen",
+      "wrongAnswers": ["Thesszaloniki", "Patras", "Pireusz"]
+    },
+    {
+      "question": "Mi a fővárosa Horvátország?",
+      "correctAnswer": "Zágráb",
+      "wrongAnswers": ["Split", "Rijeka", "Osijek"]
+    },
+    {
+      "question": "Mi a fővárosa Hollandiának?",
+      "correctAnswer": "Amszterdam",
+      "wrongAnswers": ["Rotterdam", "Hága", "Utrecht"]
+    },
+    {
+      "question": "Mi a fővárosa Izlandnak?",
+      "correctAnswer": "Reykjavik",
+      "wrongAnswers": ["Akureyri", "Hafnarfjörður", "Kópavogur"]
+    },
+    {
+      "question": "Mi a fővárosa Írországnak?",
+      "correctAnswer": "Dublin",
+      "wrongAnswers": ["Cork", "Limerick", "Galway"]
+    },
+    {
+      "question": "Mi a fővárosa Olaszországnak?",
+      "correctAnswer": "Róma",
+      "wrongAnswers": ["Milánó", "Nápoly", "Torino"]
+    },
+    {
+      "question": "Mi a fővárosa Kazahsztánnak?",
+      "correctAnswer": "Nurszultan",
+      "wrongAnswers": ["Almaty", "Karaganda", "Shymkent"]
+    },
+    {
+      "question": "Mi a fővárosa Koszovónak?",
+      "correctAnswer": "Pristina",
+      "wrongAnswers": ["Prizren", "Gjakova", "Peć"]
+    },
+    {
+      "question": "Mi a fővárosa Lettországnak?",
+      "correctAnswer": "Riga",
+      "wrongAnswers": ["Daugavpils", "Liepāja", "Jelgava"]
+    },
+    {
+      "question": "Mi a fővárosa Liechtenstein-nak?",
+      "correctAnswer": "Vaduz",
+      "wrongAnswers": ["Schaan", "Balzers", "Triesen"]
+    },
+    {
+      "question": "Mi a fővárosa Litvániának?",
+      "correctAnswer": "Vilnius",
+      "wrongAnswers": ["Kaunas", "Klaipėda", "Šiauliai"]
+    },
+    {
+      "question": "Mi a fővárosa Luxemburgnak?",
+      "correctAnswer": "Luxembourg City",
+      "wrongAnswers": ["Esch-sur-Alzette", "Differdange", "Dudelange"]
+    },
+    {
+      "question": "Mi a fővárosa Macedóniának?",
+      "correctAnswer": "Skopje",
+      "wrongAnswers": ["Bitola", "Kumanovo", "Prilep"]
+    },
+    {
+      "question": "Mi a fővárosa Máltának?",
+      "correctAnswer": "Valletta",
+      "wrongAnswers": ["Birkirkara", "Mosta", "Qormi"]
+    },
+    {
+      "question": "Mi a fővárosa Moldovának?",
+      "correctAnswer": "Chisinau",
+      "wrongAnswers": ["Tiraspol", "Bălți", "Bender"]
+    },
+    {
+      "question": "Mi a fővárosa Monaconak?",
+      "correctAnswer": "Monaco",
+      "wrongAnswers": ["Monte Carlo", "La Condamine", "Fontvieille"]
+    },
+    {
+      "question": "Mi a fővárosa Montenegrónak?",
+      "correctAnswer": "Podgorica",
+      "wrongAnswers": ["Nikšić", "Herceg Novi", "Budva"]
+    },
+    {
+      "question": "Mi a fővárosa Németországnak?",
+      "correctAnswer": "Berlin",
+      "wrongAnswers": ["Cologne", "Hamburg", "Munich"]
+    },
+    {
+      "question": "Mi a fővárosa Norvégiának?",
+      "correctAnswer": "Oslo",
+      "wrongAnswers": ["Bergen", "Trondheim", "Stavanger"]
+    },
+    {
+      "question": "Mi a fővárosa Lengyelországnak?",
+      "correctAnswer": "Varsó",
+      "wrongAnswers": ["Kraków", "Łódź", "Wrocław"]
+    },
+    {
+      "question": "Mi a fővárosa Portugáliának?",
+      "correctAnswer": "Lisbon",
+      "wrongAnswers": ["Amadora", "Porto", "Vila Nova de Gaia"]
+    },
+    {
+      "question": "Mi a fővárosa Romániának?",
+      "correctAnswer": "Bukarest",
+      "wrongAnswers": ["Cluj-Napoca", "Iași", "Timișoara"]
+    },
+    {
+      "question": "Mi a fővárosa Oroszországnak?",
+      "correctAnswer": "Moszkva",
+      "wrongAnswers": ["Jekatyerinburg", "Novoszibirszk", "Szentpétervár"]
+    },
+    {
+      "question": "Mi a fővárosa San Marinonak?",
+      "correctAnswer": "San Marino",
+      "wrongAnswers": ["Borgo Maggiore", "Domagnano", "Serravalle"]
+    },
+    {
+      "question": "Mi a fővárosa Szerbiának?",
+      "correctAnswer": "Belgrád",
+      "wrongAnswers": ["Kragujevac", "Nis", "Novi Sad"]
+    },
+    {
+      "question": "Mi a fővárosa Szlovákiának?",
+      "correctAnswer": "Pozsony",
+      "wrongAnswers": ["Bratislava", "Kassa", "Prešov"]
+    },
+    {
+      "question": "Mi a fővárosa Szlovéniának?",
+      "correctAnswer": "Ljubljana",
+      "wrongAnswers": ["Celje", "Kranj", "Maribor"]
+    },
+    {
+      "question": "Mi a fővárosa Svájcnak?",
+      "correctAnswer": "Bern",
+      "wrongAnswers": ["Basel", "Genf", "Zurich"]
+    },
+    {
+      "question": "Mi a fővárosa Svédországnak?",
+      "correctAnswer": "Stockholm",
+      "wrongAnswers": ["Göteborg", "Malmö", "Uppsala"]
+    },
+    {
+      "question": "Mi a fővárosa Törökországnak?",
+      "correctAnswer": "Ankara",
+      "wrongAnswers": ["Bursa", "Isztambul", "Izmir"]
+    },
+    {
+      "question": "Mi a fővárosa Ukrajnának?",
+      "correctAnswer": "Kijev",
+      "wrongAnswers": ["Dnyipropetrovszk", "Harkiv", "Odessa"]
+    }
+  ]
+  
