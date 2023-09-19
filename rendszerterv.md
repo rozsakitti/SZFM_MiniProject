@@ -36,6 +36,13 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 -értelemszerűen lépked kérdésről-kérdésre
 - a játék végén látni fogja helyes pontszámát
 
+### Webalkalmazásnak:
+- böngészőből elérhetőnek kell lennie
+- frontend megírása: HTML, CSS, JavaScript használatával készül
+- backend megírása: JavaScript használatával készül
+- fejlesztői környezet: VS Code
+- az adatok tárolására JSON használata
+
 
 
 ## Fizikai környezet
