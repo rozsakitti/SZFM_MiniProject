@@ -31,6 +31,12 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 ### Törvényi előírások, szabványok
 
 ## Funkcionális terv
+### Felhasználónak:
+- a felhasználó a Start gomb megnyomásával elindítja a játékot
+-értelemszerűen lépked kérdésről-kérdésre
+- a játék végén látni fogja helyes pontszámát
+
+
 
 ## Fizikai környezet
 
