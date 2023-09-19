@@ -25,8 +25,19 @@ A mai technológiai fejlődés olyan gyors, hogy az oktatási rendszer nehézkes
 Az általunk fejlesztett online platformnak óriási előnyei lesznek mind a diákok, mind a tanárok számára. A diákok élvezetes, izgalmas órákat fognak eltölteni, illetve a tanároknak sem kell többé a manuális javítással foglalkozniuk. Azonnali visszajelzést kapnak a diákoktól az elért pontszámról, és hibás válaszok esetén az is azonnal kiderül, hogy mi lett volna a helyes válasz.
 
 ## 6. Követelménylista
+| Követelmény | Leírás                                                           |
+|------------|------------------------------------------------------------------|
+| K1         | Start gomb megnyomásával elindul a játék.                        |
+| K2         | Megjelenik a kérdés.                                             |
+| K3         | Megjelenik a hozzákapcsolódó 4 válaszlehetőség is.                |
+| K4         | Kiderül melyik volt a helyes, illetve melyek a helytelen válaszok. |
+| K5         | Lépés a következő kérdésre.                                       |
+| K6         | Eredmények összegzése.                                            |
+| K7         | Játék újraindítása.                                               |
+
 
 ## 7. Használati esetek
+
 ## 8. Képernyőtervek
 ## 9. Fogalomszótár
 
