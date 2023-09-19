@@ -26,6 +26,7 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 -Helyes, helytelen válaszok megjelenítése.
 
 ### Nem funkcionális követelmények
+-Nem regisztrációhoz kötött a használata, ezáltal nem tárolja el az eredményeket.
 
 ### Törvényi előírások, szabványok
 
