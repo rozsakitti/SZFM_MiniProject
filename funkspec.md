@@ -22,7 +22,7 @@ Vágyunk, hogy a rendszerünk ingyenesen elérhető, jól átlátható és kezel
 A mai technológiai fejlődés olyan gyors, hogy az oktatási rendszer nehézkesen tud lépést tartani vele. A diákoknak kevésbé vonzó a hagyományos tanulási módszer, és inkább a mobiltelefonjaikat preferálják. Jelenleg még mindig a tankönyvekből tanulnak, és papíralapú dolgozatokat készítenek, ami nem csak elavultnak tűnik, de nem is környezetbarát, emellett az oktatóknak rengeteg idejüket emészti fel az egyenkénti javítás. Az általunk fejlesztett online platform elsődlegesen a földrajz tantárgyban kínál megoldást erre a problémára.
 
 ## 5. Igényelt üzleti folyamatok leírása
-
+Az általunk fejlesztett online platformnak óriási előnyei lesznek mind a diákok, mind a tanárok számára. A diákok élvezetes, izgalmas órákat fognak eltölteni, illetve a tanároknak sem kell többé a manuális javítással foglalkozniuk. Azonnali visszajelzést kapnak a diákoktól az elért pontszámról, és hibás válaszok esetén az is azonnal kiderül, hogy mi lett volna a helyes válasz.
 
 ## 6. Követelménylista
 
