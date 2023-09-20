@@ -75,7 +75,8 @@ A felületen könnyen lehet navigálni, illetve könnyű használni azt. A felü
 * Könnyen üzelmetethető lesz mivel nem fog sok helyet / erőforrást felhasználni a programunk futáskor. Külső adatbázisra sincs szükség mivel helyben fog futni az egész.
 * Könnyen és akadálymentesen lehet majd használni a weboldalt a grafikus felület álltal, egyértelmű és gördülékeny. 
 * A dizájn reszponzív lesz mivel, alkalmazkodik majd a kijelző méretéhez. 
-* A program adattárolása helyileg az eszközön fog történni, és nem a felhőbe. Ezzel biztonságosabbá téve a lopástól, és a nemkívánt személyek beletekitésétől. * Könnyen üzelmetethető lesz mivel nem fog sok helyet / erőforrást felhasználni a programunk futáskor. Külső adatbázisra sincs szükség mivel helyben fog futni az egész.
+* A program adattárolása helyileg az eszközön fog történni, és nem a felhőbe. Ezzel biztonságosabbá téve a lopástól, és a nemkívánt személyek beletekitésétől.
+* Könnyen üzelmetethető lesz mivel nem fog sok helyet / erőforrást felhasználni a programunk futáskor. Külső adatbázisra sincs szükség mivel helyben fog futni az egész.
 * Könnyen és akadálymentesen lehet majd használni az appot a grafikus felület álltal, egyértelmű és gördülékeny. 
 * A dizájn reszponzív lesz mivel, alkalmazkodik majd a kijelző méretéhez. 
 * A program adattárolása helyileg az eszközön fog történni, és nem a felhőbe. Ezzel biztonságosabbá téve a lopástól, és a nemkívánt személyek beletekitésétől. 
