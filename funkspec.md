@@ -70,9 +70,21 @@ A felületen könnyen lehet navigálni, illetve könnyű használni azt. A felü
 
 ## 8. Képernyőtervek
 
-## 9. Fogalomszótár
+## 9. Funkció - követelmény megfeleltetés
+
+* Könnyen üzelmetethető lesz mivel nem fog sok helyet / erőforrást felhasználni a programunk futáskor. Külső adatbázisra sincs szükség mivel helyben fog futni az egész.
+* Könnyen és akadálymentesen lehet majd használni a weboldalt a grafikus felület álltal, egyértelmű és gördülékeny. 
+* A dizájn reszponzív lesz mivel, alkalmazkodik majd a kijelző méretéhez. 
+* A program adattárolása helyileg az eszközön fog történni, és nem a felhőbe. Ezzel biztonságosabbá téve a lopástól, és a nemkívánt személyek beletekitésétől. * Könnyen üzelmetethető lesz mivel nem fog sok helyet / erőforrást felhasználni a programunk futáskor. Külső adatbázisra sincs szükség mivel helyben fog futni az egész.
+* Könnyen és akadálymentesen lehet majd használni az appot a grafikus felület álltal, egyértelmű és gördülékeny. 
+* A dizájn reszponzív lesz mivel, alkalmazkodik majd a kijelző méretéhez. 
+* A program adattárolása helyileg az eszközön fog történni, és nem a felhőbe. Ezzel biztonságosabbá téve a lopástól, és a nemkívánt személyek beletekitésétől. 
+* Az adat könnyen mozgatható lesz, mivel helyileg tárolt fájl lesz amit könnyü, exportálni és importálni más eszközökre is akár ha úgyszeretnénk.
+
+
+## 10. Fogalomszótár
 >*Platform:* Egy program futtatásához szükséges hardver és/vagy szoftver környezet.
 
 >*Aktor:* A szereplők vagy felhasználók (angolul: actor) a funkciókat használó emberek és egyéb informatikai rendszerek.
 
-
+>*Reszponzív:* Folyamatos növelés, tehát attól függően, hogy milyen eszköz, illetve sávszélesség áll rendelkezésre, más és más megjelenítéssel áll elő ugyanaz a tartalom.
