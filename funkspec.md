@@ -33,6 +33,8 @@ Vágyunk, hogy a rendszerünk ingyenesen elérhető, jól átlátható és kezel
 ## 5. Igényelt üzleti folyamatok leírása
 Az általunk fejlesztett online platformnak óriási előnyei lesznek mind a diákok, mind a tanárok számára. A diákok élvezetes, izgalmas órákat fognak eltölteni, illetve a tanároknak sem kell többé a manuális javítással foglalkozniuk. Azonnali visszajelzést kapnak a diákoktól az elért pontszámról, és hibás válaszok esetén az is azonnal kiderül, hogy mi lett volna a helyes válasz.
 
+A felületen könnyen lehet navigálni, illetve könnyű használni azt. A felület letisztult minimál dizájnra épül. A felhasználó kiválasztja, hogy mennyi kérdést szeretne kapni, majd elindul a játék. A játék véletlenszerűen teszi fel a kérdéseket, pontosan annyit, amennyit a felhasználó megadott kezdéskor. Válaszol a kérdésre, és azonnali visszajelzést kap, hogy a válasz helyes volt e vagy sem. A végén egy teljes értékelés történik, azaz, hogy mennyit sikerült eltalálnia mennyiből.
+
 ## 6. Követelménylista
 | Követelmény | Leírás                                                           |
 |------------|------------------------------------------------------------------|
