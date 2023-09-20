@@ -35,6 +35,14 @@ Az általunk fejlesztett online platformnak óriási előnyei lesznek mind a di�
 
 A felületen könnyen lehet navigálni, illetve könnyű használni azt. A felület letisztult minimál dizájnra épül. A felhasználó kiválasztja, hogy mennyi kérdést szeretne kapni, majd elindul a játék. A játék véletlenszerűen teszi fel a kérdéseket, pontosan annyit, amennyit a felhasználó megadott kezdéskor. Válaszol a kérdésre, és azonnali visszajelzést kap, hogy a válasz helyes volt e vagy sem. A végén egy teljes értékelés történik, azaz, hogy mennyit sikerült eltalálnia mennyiből.
 
+4.2. **Összesítés:**
+
+4.2.1. Számonkérés: Online, a rendszert használva.
+
+4.2.2. Javítás: Teljesen a rendszer végzi.
+
+4.2.3. Modern, egyszerű.
+
 ## 6. Követelménylista
 | Követelmény | Leírás                                                           |
 |------------|------------------------------------------------------------------|
@@ -56,3 +64,5 @@ A felületen könnyen lehet navigálni, illetve könnyű használni azt. A felü
 >*Platform:* Egy program futtatásához szükséges hardver és/vagy szoftver környezet.
 
 >*Aktor:* A szereplők vagy felhasználók (angolul: actor) a funkciókat használó emberek és egyéb informatikai rendszerek.
+
+
