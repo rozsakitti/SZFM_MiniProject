@@ -39,7 +39,7 @@ Az általunk fejlesztett online platformnak óriási előnyei lesznek mind a di�
 ## 7. Használati esetek
 
 ## 8. Képernyőtervek
+
 ## 9. Fogalomszótár
-
-
+>*Platform:* Egy program futtatásához szükséges hardver és/vagy szoftver környezet.
 
