@@ -58,6 +58,16 @@ A felületen könnyen lehet navigálni, illetve könnyű használni azt. A felü
 ## 7. Használati esetek
 - **Aktorok:** A diákok.
 
+  	 - **A felhasználó által elvégezhető műveletek**:
+
+        -  Két nehézségi fokozat közül lehet majd választani.
+
+  	         - Könnyű fokozat választása esetén 5,
+  	         - Nehéz fokozat választása esetén pedig 10 kérdésre kell a felhasználónak választ adni.
+
+  	    - A felhasználó 4 válaszlehetőség közül fog tudni választani.
+  	    - Ha a felhasználó befejezte a kérdéssort,  megtekintheti a pontjait.
+
 ## 8. Képernyőtervek
 
 ## 9. Fogalomszótár
