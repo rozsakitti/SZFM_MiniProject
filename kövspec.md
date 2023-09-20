@@ -30,17 +30,18 @@ Célunk egy olyan szoftver létrehozása, amely segít megismerni európa orszá
 ## 4. Igényelt üzleti folyamatok modellje
 * 4.1) Rendszer előkészületek
   
-  * 4.1.1) Országok és fővárosaik felvitele az adatbázisba
-  * 4.1.2) Kérdések és válaszok felvitele az adatbázisba
+  * 4.1.1) Országok és fővárosaik felvitele a Json file-ba
+  * 4.1.2) Kérdések és válaszok felvitele a Json file-ba
   
 * 4.2) Online megjelenés
   
   * 4.2.1) Előkészületek
-    * 4.2.1.1) A letisztult felületre érve, a felhasználó kiválasztja, hogy hány kérdést tegyen fel a rendszer illetve, hogy mennyi idő legyen a határidő 1-1 kérdésre.
-    * 4.2.1.2) A felhasználónak lehetősége van olyan játék indítására, amelyben előre megadott országok szerepelnek.
+    * 4.2.1.1) A letisztult felületre érve, a felhasználó kiválasztja, hogy hány kérdést tegyen fel a rendszer.
   * 4.2.2) Játék folyamata
-    * 4.2.2.1) A megadott idő alatt van lehetősége a felhasználónak válaszolni a feltett kérésre
-    * 4.2.2.2) Ha válaszolt az összes kérdésre a felhasználó, akkor azonnali kiértékelés történik
+    * 4.2.2.1) A rendszer megjeleníti a kérdést
+    * 4.2.2.2) A felhasználó válaszol a feltett kérdésre
+    * 4.2.2.3) A rendszer jelzi, hogy helyes volt e a válasz
+    * 4.2.2.4) Ha válaszolt az összes kérdésre a felhasználó, akkor egy teljes kiértékelés történik
 
 ## 5. A rendszerre vonatkozó szabályok 
 - 5.1 A webes felület szabványos eszközökkel készüljön, html/css/javascript + python.
