@@ -8,7 +8,7 @@
 }
 
 .quiz-container {
-    background-color: rgba(255, 255, 255, 0.314); 
+    background-color: rgba(62, 60, 60, 0.532); 
     border-radius: 50px;
     padding: 80px;
 }
@@ -21,7 +21,7 @@
 .quiz-head{
     font-size: 1.5em;
     margin: 0;
-    color: #fff;
+    color: #f5f2d8;
     text-align: center;
 }
 
@@ -33,14 +33,14 @@
     padding: 10px 20px;
     font-size: 1.2em;
     background-color: #1b5605;
-    color: #fff;
+    color: #f8f2e4;
     border: none;
     border-radius: 12px;
 }
 
 .start-button:hover {
 cursor: pointer;
-box-shadow: 0 0.4rem 1.4rem 0 rgba(21, 255, 0, 0.579);
+box-shadow: 0 0.4rem 1.4rem 0 rgba(12, 75, 8, 0.742);
 transition: transform 100ms;
 transform: scale(1.08)
 }
@@ -52,7 +52,7 @@ transform: scale(1.08)
 }
 
 body {
-    background-image: url('background.jpg');
+    background-image: url('background2.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -79,7 +79,7 @@ body {
 }
 
 .easy-mode-button {
-    background-color: rgba(255, 153, 0, 0.714);
+    background-color: rgba(255, 153, 0, 0.742);
     color: white;
     font-size: 21px;
     margin-bottom: 20px;
@@ -87,6 +87,7 @@ body {
     height: 80px;
     border-radius: 25px;
     border: none;
+    font-weight: bold;
 }
 
 .easy-mode-button:hover {
@@ -97,7 +98,7 @@ body {
 }
 
 .hard-mode-button {
-    background-color: rgba(151, 10, 10, 0.692);
+    background-color: rgba(151, 10, 10, 0.74);
     color: white;
     font-size: 21px;
     margin-bottom: 10px;
@@ -105,6 +106,7 @@ body {
     height: 80px;
     border-radius: 25px;
     border: none;
+    font-weight: bold;
 }
 
 .hard-mode-button:hover {
