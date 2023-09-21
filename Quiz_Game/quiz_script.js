@@ -8,29 +8,29 @@ document.querySelector('.start-button').addEventListener('click', function() {
 });
 
 function displayModeButtons() {
-    // Hide the title and "Start" button
+
     var titleBox = document.querySelector('.quiz-head');
     titleBox.style.display = 'none';
 
     var startButton = document.querySelector('.start-button');
     startButton.style.display = 'none';
 
-    // Create buttons for "Könnyű" and "Nehéz" modes
+    // A Könnyű és nehéz fokozatnak megcsináljuk a gombjait.
     var modeButtons = document.createElement('div');
     modeButtons.id = 'mode-buttons';
 
     var easyButton = document.createElement('button');
-    easyButton.classList.add('mode-button');
+    easyButton.classList.add('mode-button', 'easy-mode-button');
     easyButton.textContent = 'Könnyű';
     easyButton.addEventListener('click', function() {
-        startEasyGame(); // Start the "Könnyű" mode game
+        startEasyGame(); // Itt hivjuk majd meg a Könnyű játékmódot.
     });
 
     var hardButton = document.createElement('button');
-    hardButton.classList.add('mode-button');
+    hardButton.classList.add('mode-button', 'hard-mode-button');
     hardButton.textContent = 'Nehéz';
     hardButton.addEventListener('click', function() {
-        startHardGame(); // Start the "Nehéz" mode game
+        startHardGame(); // Itt hivjuk majd meg a Nehéz játékmódot.
     });
 
     modeButtons.appendChild(easyButton);

@@ -71,3 +71,21 @@ body {
     transition: transform 100ms;
     transform: scale(1.08)
     }
+
+#mode-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.easy-mode-button {
+    background-color: rgba(86, 186, 106, 0.714);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hard-mode-button {
+    background-color: rgba(151, 10, 10, 0.692);
+    color: white;
+    margin-bottom: 10px;
+}
