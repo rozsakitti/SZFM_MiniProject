@@ -79,13 +79,37 @@ body {
 }
 
 .easy-mode-button {
-    background-color: rgba(86, 186, 106, 0.714);
+    background-color: rgba(255, 153, 0, 0.714);
     color: white;
+    font-size: 21px;
     margin-bottom: 20px;
+    width: 200px;
+    height: 80px;
+    border-radius: 25px;
+    border: none;
+}
+
+.easy-mode-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.745);
+    transition: transform 100ms;
+    transform: scale(1.08)
 }
 
 .hard-mode-button {
     background-color: rgba(151, 10, 10, 0.692);
     color: white;
+    font-size: 21px;
     margin-bottom: 10px;
+    width: 200px;
+    height: 80px;
+    border-radius: 25px;
+    border: none;
+}
+
+.hard-mode-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.745);
+    transition: transform 100ms;
+    transform: scale(1.08)
 }
