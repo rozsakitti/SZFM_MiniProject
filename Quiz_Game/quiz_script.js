@@ -1,6 +1,58 @@
+/*
 document.querySelector('.start-button').addEventListener('click', function() {
     displayRandomQuestion();
 });
+*/
+document.querySelector('.start-button').addEventListener('click', function() {
+    displayModeButtons();
+});
+
+function displayModeButtons() {
+    // Hide the title and "Start" button
+    var titleBox = document.querySelector('.quiz-head');
+    titleBox.style.display = 'none';
+
+    var startButton = document.querySelector('.start-button');
+    startButton.style.display = 'none';
+
+    // Create buttons for "Könnyű" and "Nehéz" modes
+    var modeButtons = document.createElement('div');
+    modeButtons.id = 'mode-buttons';
+
+    var easyButton = document.createElement('button');
+    easyButton.classList.add('mode-button');
+    easyButton.textContent = 'Könnyű';
+    easyButton.addEventListener('click', function() {
+        startEasyGame(); // Start the "Könnyű" mode game
+    });
+
+    var hardButton = document.createElement('button');
+    hardButton.classList.add('mode-button');
+    hardButton.textContent = 'Nehéz';
+    hardButton.addEventListener('click', function() {
+        startHardGame(); // Start the "Nehéz" mode game
+    });
+
+    modeButtons.appendChild(easyButton);
+    modeButtons.appendChild(hardButton);
+
+    var quizContainer = document.querySelector('.quiz-container');
+    var existingModeButtons = document.getElementById('mode-buttons');
+
+    if (existingModeButtons) {
+        quizContainer.replaceChild(modeButtons, existingModeButtons);
+    } else {
+        quizContainer.appendChild(modeButtons);
+    }
+}
+
+function startEasyGame() {
+    //Itt történik majd a Könnyű játékmód kezelése.
+}
+
+function startHardGame() {
+    //Itt történik majd a Nehéz játékmód kezelése.
+}
 
 function displayRandomQuestion() {
     // Betöltjük a kérdéseket a JSON fájlból
