@@ -11,6 +11,7 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 | Rózsa Kitti | Programozó |
 | Tolvaj Péter | Programozó |
 | Kovács Dávid  | Programozó |
+
 ### Ütemterv
 
 ### Mérföldkövek
@@ -40,19 +41,24 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 - böngészőből elérhetőnek kell lennie
 - frontend megírása: HTML, CSS, JavaScript használatával készül
 - backend megírása: JavaScript használatával készül
-- fejlesztői környezet: VS Code
 - az adatok tárolására JSON használata
 
-
-
 ## Fizikai környezet
-
+ 
 ## Adatbázis terv
 
 ## Implementációs terv
 
 ## Tesztterv
+Két fajta tesztet fogunk megkülönböztetni: 
+- Egységteszt:
+  - Ezzel szükséges lefedni az üzleti logikát (ezzel biztosítva, hogy a kód az elvárt modon működik)
+- Kézi tesztelés:
+  - Ide tartozik a frontend tesztelése (megnézve, hogy azok szerepelnek a felületen amit akarunk, és úgy ahogy elvárjuk)
+  - Felhasználói élmény figyelése (Ha már a fejlesztő/tesztelő nem találja komfortosnak a felületet használva, akkor a felhasználó végképp nem fogja)
 
 ## Telepítési terv
+Nincs szükség külön telepítő csomagokra, hiszen az alkalmazás webes rendszeren fut. Alkalmazás "telepítési" folyamata: A link birtokában megnyitható a böngészőben.
 
 ## Karbantartási terv
+ELsősorban a visszajelzésekre támaszkodva fogjuk karbantartani a rendszert. Nem csak az esetleges hibák javítását fogjuk végezni, de az olyan fejlesztési ötleteket is megvalósítjuk, amelyek javítják a felhasználói élményt.
