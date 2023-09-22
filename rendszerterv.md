@@ -14,6 +14,13 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 
 ### Ütemterv
 
+| Feladat | Határidő |
+|---------|----------|
+| Json file feltöltése adatokkal | 2023. 09. 22 |
+| A program üzleti folyamatának pontos leírása | 2023. 09. 22 |
+| A program üzleti folyamatok programozása | 2023. 09. 24 |
+| A program kinézetének megvalósítása | 2023. 09. 24 |
+
 ### Mérföldkövek
 
 ## Üzleti folyamatok modellje
@@ -44,8 +51,18 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 - az adatok tárolására JSON használata
 
 ## Fizikai környezet
+- A rendszer Javascript nyelven fog íródni (természetesen HTML, CSS segítségével)
+- A rendszer asztali számítógépekre készül jelenleg
+- Használható Windows, Linux és MacOS rendszeren is használható
+- Bármely ismert asztali számítógépen is futó böngészőre van szükség (Google Chrome, Firefox...)
+- Fejlesztői eszközök:
+- Visual Studio Code
+- Visual Studio
+- Node.JS
+- Github
  
 ## Adatbázis terv
+Jelenleg a rendszer mögött nem található valódi adatbázis, hiszen az adatokat Json file-ból fogjuk használni, illetve abban fogjuk tárolni a szükséges adatokat.
 
 ## Implementációs terv
 
