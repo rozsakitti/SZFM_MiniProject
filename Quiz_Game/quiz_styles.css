@@ -70,7 +70,7 @@ body {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(26, 27, 29, 0.579);
     transition: transform 100ms;
     transform: scale(1.08)
-    }
+}
 
 #mode-buttons {
     display: flex;
@@ -114,4 +114,48 @@ body {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.745);
     transition: transform 100ms;
     transform: scale(1.08)
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.answer-button {
+    background-color: lightgray; /* Piros háttérszín */
+    color: black; /* Fehér szövegszín a jobb láthatóság érdekében */
+    border: none;
+    width: 45%; /* Két gomb egymás mellé kerül */
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+/* Exit gomb pozíciója */
+.exit-button {
+    background-color: red; /* Piros háttérszín */
+    color: white; /* Fehér szövegszín a jobb láthatóság érdekében */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px; /* Távolság hozzáadása a válaszok alatt */
+    width: 25%;
+    align-self: flex-end; /* Alulra igazítás */
+    margin-left: 35%;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+}
+
+    /* Exit gomb stílusa */
+.exit-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.745);
+    transition: transform 100ms;
+    transform: scale(1.08);
 }

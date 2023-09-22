@@ -24,6 +24,7 @@ function displayModeButtons() {
     easyButton.textContent = 'Könnyű';
     easyButton.addEventListener('click', function() {
         startEasyGame(); // Itt hivjuk majd meg a Könnyű játékmódot.
+        hideModeButtons();
     });
 
     var hardButton = document.createElement('button');
@@ -46,12 +47,32 @@ function displayModeButtons() {
     }
 }
 
+function hideModeButtons() {
+    var modeButtons = document.getElementById('mode-buttons');
+    modeButtons.style.display = 'none';
+}
+
 function startEasyGame() {
     //Itt történik majd a Könnyű játékmód kezelése.
+    displayRandomQuestion();
+
 }
 
 function startHardGame() {
     //Itt történik majd a Nehéz játékmód kezelése.
+}
+
+function exit() {
+    var titleBox = document.querySelector('.quiz-head');
+    titleBox.style.display = 'block'; // Visszaállítjuk a címsor megjelenítését
+
+    var startButton = document.querySelector('.start-button');
+    startButton.style.display = 'block'; // Visszaállítjuk a "Start" gomb megjelenítését
+
+    var questionBox = document.getElementById('question-box');
+    if (questionBox) {
+        questionBox.remove(); // Töröljük a kérdés dobozát
+    }
 }
 
 function displayRandomQuestion() {
@@ -98,10 +119,19 @@ function displayRandomQuestion() {
             correctAnswerButton.addEventListener('click', function() {
                 // Itt történik majd a helyes válasz kezelése
             });
+
+            var exitButton = document.createElement('button');
+            exitButton.classList.add('exit-button');
+            exitButton.textContent = "Exit";
+            exitButton.addEventListener('click', function () {
+                exit();
+            });
+
             answersContainer.appendChild(correctAnswerButton);
 
             questionBox.appendChild(questionTitle);
             questionBox.appendChild(answersContainer);
+            questionBox.appendChild(exitButton);
 
             var quizContainer = document.querySelector('.quiz-container');
             var existingQuestionBox = document.getElementById('question-box');
