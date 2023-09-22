@@ -58,10 +58,10 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 - Használható Windows, Linux és MacOS rendszeren is használható
 - Bármely ismert asztali számítógépen is futó böngészőre van szükség (Google Chrome, Firefox...)
 - Fejlesztői eszközök:
-- Visual Studio Code
-- Visual Studio
-- Node.JS
-- Github
+  - Visual Studio Code
+  - Visual Studio
+  - Node.JS
+  - Github
  
 ## Adatbázis terv
 Jelenleg a rendszer mögött nem található valódi adatbázis, hiszen az adatokat Json file-ból fogjuk használni, illetve abban fogjuk tárolni a szükséges adatokat.
