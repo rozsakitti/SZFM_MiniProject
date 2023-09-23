@@ -25,8 +25,6 @@
     text-align: center;
 }
 
-
-
 .start-button {
     display: block;
     margin: 20px auto;
@@ -144,6 +142,7 @@ body {
     padding: 5px 10px;
     margin-top: 10px; /* Távolság hozzáadása a válaszok alatt */
     width: 25%;
+    float: left;
     align-self: flex-end; /* Alulra igazítás */
     font-size: 16px;
     border-radius: 25px;
@@ -160,8 +159,8 @@ body {
 }
 
 .check-button {
-    background-color: forestgreen; /* Piros háttérszín */
-    color: white; /* Fehér szövegszín a jobb láthatóság érdekében */
+    background-color: forestgreen;
+    color: white;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
@@ -187,4 +186,40 @@ body {
 .highlighted-button {
     background-color: #1b5605; /* Kiemelési szín */
     color: #f8f2e4; /* Kiemelési szín */
+}
+
+#score-display {
+    background-color: white;
+    color: black;
+    width: 25%;
+    margin-left: 10%;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.wrong-answer {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 45%; /* Két gomb egymás mellé kerül */
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.correct-answer {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    width: 45%; /* Két gomb egymás mellé kerül */
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
 }

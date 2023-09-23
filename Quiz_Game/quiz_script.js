@@ -2,6 +2,16 @@ document.querySelector('.start-button').addEventListener('click', function() {
     displayModeButtons();
 });
 
+var highlightedButton = null;
+var checkButton;
+var answerButtons = [];
+var nextButton
+var maxScore;
+var score = 0;
+var scoreDisplay;
+var maxQuesion = 0;
+var questionCounter = 0;
+
 function displayModeButtons() {
 
     var titleBox = document.querySelector('.quiz-head');
@@ -17,16 +27,19 @@ function displayModeButtons() {
     var easyButton = document.createElement('button');
     easyButton.classList.add('mode-button', 'easy-mode-button');
     easyButton.textContent = 'Könnyű';
-    easyButton.addEventListener('click', function() {
-        startEasyGame(); // Itt hivjuk majd meg a Könnyű játékmódot.
+    easyButton.addEventListener('click', function () {
+        // Itt hivjuk majd meg a Könnyű játékmódot.
+
+        startEasyGame();
         hideModeButtons();
     });
 
     var hardButton = document.createElement('button');
     hardButton.classList.add('mode-button', 'hard-mode-button');
     hardButton.textContent = 'Nehéz';
-    hardButton.addEventListener('click', function() {
-        startHardGame(); // Itt hivjuk majd meg a Nehéz játékmódot.
+    hardButton.addEventListener('click', function () {
+        // Itt hivjuk majd meg a Nehéz játékmódot.
+        startHardGame(); 
         hideModeButtons();
     });
 
@@ -50,15 +63,25 @@ function hideModeButtons() {
 
 function startEasyGame() {
     //Itt történik majd a Könnyű játékmód kezelése.
+    maxScore = 5;
+    maxQuesion = 5;
     displayRandomQuestion();
 
 }
 
 function startHardGame() {
     //Itt történik majd a Nehéz játékmód kezelése.
+    maxScore = 10;
+    maxQuesion = 10;
+    displayRandomQuestion();
 }
 
 function exit() {
+    score = 0;
+    maxScore = 0;
+    maxQuesion = 0;
+    questionCounter = 0;
+
     var titleBox = document.querySelector('.quiz-head');
     titleBox.style.display = 'block'; // Visszaállítjuk a címsor megjelenítését
 
@@ -70,8 +93,6 @@ function exit() {
         questionBox.remove(); // Töröljük a kérdés dobozát
     }
 }
-
-var highlightedButton = null;
 
 function displayRandomQuestion() {
     // Betöltjük a kérdéseket a JSON fájlból
@@ -121,6 +142,7 @@ function displayRandomQuestion() {
                     highlightedButton = answerButton;
                 });
                 answersContainer.appendChild(answerButton);
+                answerButtons.push(answerButton);
             });
 
             let correctAnswerButton = document.createElement('button');
@@ -141,6 +163,7 @@ function displayRandomQuestion() {
                 correctAnswerButton.classList.add('highlighted-button');
                 highlightedButton = correctAnswerButton;
             });
+            answerButtons.push(correctAnswerButton);
 
             var exitButton = document.createElement('button');
             exitButton.classList.add('exit-button');
@@ -149,13 +172,29 @@ function displayRandomQuestion() {
                 exit();
             });
 
-            var checkButton = document.createElement('button');
+            checkButton = document.createElement('button');
             checkButton.classList.add('check-button');
             checkButton.textContent = "Ellenőriz";
             checkButton.style.display = 'none'; // Alapértelmezés szerint elrejtjük az "Ellenőriz" gombot
             checkButton.addEventListener('click', function () {
                 checkAnswer(correctAnswerButton, highlightedButton);
+
+                answerButtons.forEach(function (answerButton) {
+                    answerButton.disabled = true;
+                });
             });
+
+            nextButton = document.createElement('button');
+            nextButton.classList.add('check-button');
+            nextButton.textContent = "Következő";
+            nextButton.style.display = 'none'; // Alapértelmezés szerint elrejtjük a "Következő" gombot
+            nextButton.addEventListener('click', function () {
+                nextQuestion();
+            });
+
+            scoreDisplay = document.createElement('div');
+            scoreDisplay.id = 'score-display';
+            scoreDisplay.style.display = 'none';
 
             answersContainer.appendChild(correctAnswerButton);
 
@@ -163,6 +202,8 @@ function displayRandomQuestion() {
             questionBox.appendChild(answersContainer);
             questionBox.appendChild(exitButton);
             questionBox.appendChild(checkButton);
+            questionBox.appendChild(scoreDisplay);
+            questionBox.appendChild(nextButton);
 
             var quizContainer = document.querySelector('.quiz-container');
             var existingQuestionBox = document.getElementById('question-box');
@@ -177,11 +218,30 @@ function displayRandomQuestion() {
 }
 
 function checkAnswer(correctAnswer, selectedButton) {
+    questionCounter += 1;
     if (selectedButton === correctAnswer) {
-        // A kiválasztott gomb a helyes gomb
-        console.log('A helyes választ választottad!');
-    } else {
-        // A kiválasztott gomb nem a helyes gomb
-        console.log('Nem a helyes választ választottad.');
+        score += 1;
     }
+    else {
+        selectedButton.classList.remove('answer-button');
+        selectedButton.classList.add('wrong-answer');
+
+        correctAnswer.classList.add('correct-answer');
+    }
+    scoreDisplay.textContent = 'Pontod: ' + score + '/' + maxScore;
+    scoreDisplay.style.display = 'block';
+    checkButton.style.display = 'none';
+    nextButton.style.display = 'block';
+}
+
+function nextQuestion() {
+    if (questionCounter === maxQuesion) {
+        
+    } else {
+        // Ha nincs elérve a maximális pontszám, akkor jeleníts meg egy új kérdést.
+        displayRandomQuestion();
+    }
+
+    // Következő gomb elrejtése
+    nextButton.style.display = 'none';
 }
