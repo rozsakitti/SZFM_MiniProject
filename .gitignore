@@ -12,3 +12,5 @@
 /.vs/szfm/FileContentIndex/73158ce6-a447-4c62-b875-6f593e714df8.vsidx
 *.vsidx
 /.vs/szfm/v17/.wsuo
+/.vs/szfm/FileContentIndex/write.lock
+/.gitignore

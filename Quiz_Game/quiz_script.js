@@ -66,7 +66,6 @@ function startEasyGame() {
     maxScore = 5;
     maxQuesion = 5;
     displayRandomQuestion();
-
 }
 
 function startHardGame() {
@@ -91,6 +90,16 @@ function exit() {
     var questionBox = document.getElementById('question-box');
     if (questionBox) {
         questionBox.remove(); // Töröljük a kérdés dobozát
+    }
+
+    var finalScoreDisplay = document.getElementById('final-score-display');
+    if (finalScoreDisplay) {
+        finalScoreDisplay.remove(); // Töröljük az összegző felületet
+    }
+
+    var exitButton = document.querySelector('.exit-button');
+    if (exitButton) {
+        exitButton.remove(); // Töröljük az exit gombot
     }
 }
 
@@ -186,7 +195,11 @@ function displayRandomQuestion() {
 
             nextButton = document.createElement('button');
             nextButton.classList.add('check-button');
-            nextButton.textContent = "Következő";
+            if (questionCounter !== maxQuesion - 1) {
+                nextButton.textContent = "Következő";
+            } else {
+                nextButton.textContent = "Vége";
+            }
             nextButton.style.display = 'none'; // Alapértelmezés szerint elrejtjük a "Következő" gombot
             nextButton.addEventListener('click', function () {
                 nextQuestion();
@@ -236,9 +249,27 @@ function checkAnswer(correctAnswer, selectedButton) {
 
 function nextQuestion() {
     if (questionCounter === maxQuesion) {
-        
+        var questionBox = document.getElementById('question-box');
+        if (questionBox) {
+            questionBox.style.display = 'none'; // Elrejtjük a kérdésdobozt
+
+            var finalScoreDisplay = document.createElement('div');
+            finalScoreDisplay.id = 'final-score-display';
+            finalScoreDisplay.textContent = 'Végső pont: ' + score + '/' + maxScore;
+            finalScoreDisplay.classList.add('quiz-title')
+
+            var exitButton = document.createElement('button');
+            exitButton.classList.add('exit-button');
+            exitButton.textContent = "Exit";
+            exitButton.addEventListener('click', function () {
+                exit();
+            });
+
+            var quizContainer = document.querySelector('.quiz-container');
+            quizContainer.appendChild(finalScoreDisplay);
+            quizContainer.appendChild(exitButton);
+        }
     } else {
-        // Ha nincs elérve a maximális pontszám, akkor jeleníts meg egy új kérdést.
         displayRandomQuestion();
     }
 
