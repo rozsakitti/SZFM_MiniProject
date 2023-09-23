@@ -145,7 +145,6 @@ body {
     margin-top: 10px; /* Távolság hozzáadása a válaszok alatt */
     width: 25%;
     align-self: flex-end; /* Alulra igazítás */
-    margin-left: 35%;
     font-size: 16px;
     border-radius: 25px;
     border: none;
@@ -158,4 +157,34 @@ body {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.745);
     transition: transform 100ms;
     transform: scale(1.08);
+}
+
+.check-button {
+    background-color: forestgreen; /* Piros háttérszín */
+    color: white; /* Fehér szövegszín a jobb láthatóság érdekében */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px; /* Távolság hozzáadása a válaszok alatt */
+    width: 25%;
+    align-self: flex-end; /* Alulra igazítás */
+    float: right;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+}
+
+/* Ellenőriz gomb stílusa */
+.check-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.745);
+    transition: transform 100ms;
+    transform: scale(1.08);
+}
+
+/* Kiemelt gomb stílusa */
+.highlighted-button {
+    background-color: #1b5605; /* Kiemelési szín */
+    color: #f8f2e4; /* Kiemelési szín */
 }

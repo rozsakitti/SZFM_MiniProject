@@ -1,8 +1,3 @@
-/*
-document.querySelector('.start-button').addEventListener('click', function() {
-    displayRandomQuestion();
-});
-*/
 document.querySelector('.start-button').addEventListener('click', function() {
     displayModeButtons();
 });
@@ -32,6 +27,7 @@ function displayModeButtons() {
     hardButton.textContent = 'Nehéz';
     hardButton.addEventListener('click', function() {
         startHardGame(); // Itt hivjuk majd meg a Nehéz játékmódot.
+        hideModeButtons();
     });
 
     modeButtons.appendChild(easyButton);
@@ -75,6 +71,8 @@ function exit() {
     }
 }
 
+var highlightedButton = null;
+
 function displayRandomQuestion() {
     // Betöltjük a kérdéseket a JSON fájlból
     fetch('kerdesek.json')
@@ -109,15 +107,39 @@ function displayRandomQuestion() {
                 answerButton.textContent = answer;
                 answerButton.addEventListener('click', function() {
                     // Itt történik majd a válasz kezelése
+                    checkButton.style.display = 'block';
+
+                    highlightedButton = document.querySelector('.highlighted-button');
+
+                    // Ha van kiemelt gomb, akkor levesszük róla a kiemelést
+                    if (highlightedButton) {
+                        highlightedButton.classList.remove('highlighted-button');
+                    }
+
+                    // Kiemeljük az aktuális gombot
+                    answerButton.classList.add('highlighted-button');
+                    highlightedButton = answerButton;
                 });
                 answersContainer.appendChild(answerButton);
             });
 
-            var correctAnswerButton = document.createElement('button');
+            let correctAnswerButton = document.createElement('button');
             correctAnswerButton.classList.add('answer-button');
             correctAnswerButton.textContent = randomQuestion.correctAnswer;
             correctAnswerButton.addEventListener('click', function() {
                 // Itt történik majd a helyes válasz kezelése
+                checkButton.style.display = 'block';
+
+                highlightedButton = document.querySelector('.highlighted-button');
+
+                // Ha van kiemelt gomb, akkor levesszük róla a kiemelést
+                if (highlightedButton) {
+                    highlightedButton.classList.remove('highlighted-button');
+                }
+
+                // Kiemeljük az aktuális gombot
+                correctAnswerButton.classList.add('highlighted-button');
+                highlightedButton = correctAnswerButton;
             });
 
             var exitButton = document.createElement('button');
@@ -127,11 +149,20 @@ function displayRandomQuestion() {
                 exit();
             });
 
+            var checkButton = document.createElement('button');
+            checkButton.classList.add('check-button');
+            checkButton.textContent = "Ellenőriz";
+            checkButton.style.display = 'none'; // Alapértelmezés szerint elrejtjük az "Ellenőriz" gombot
+            checkButton.addEventListener('click', function () {
+                checkAnswer(correctAnswerButton, highlightedButton);
+            });
+
             answersContainer.appendChild(correctAnswerButton);
 
             questionBox.appendChild(questionTitle);
             questionBox.appendChild(answersContainer);
             questionBox.appendChild(exitButton);
+            questionBox.appendChild(checkButton);
 
             var quizContainer = document.querySelector('.quiz-container');
             var existingQuestionBox = document.getElementById('question-box');
@@ -143,4 +174,14 @@ function displayRandomQuestion() {
             }
         })
         .catch(error => console.error('Hiba történt:', error));
+}
+
+function checkAnswer(correctAnswer, selectedButton) {
+    if (selectedButton === correctAnswer) {
+        // A kiválasztott gomb a helyes gomb
+        console.log('A helyes választ választottad!');
+    } else {
+        // A kiválasztott gomb nem a helyes gomb
+        console.log('Nem a helyes választ választottad.');
+    }
 }
