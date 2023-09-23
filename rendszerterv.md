@@ -24,13 +24,35 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 ### Mérföldkövek
 
 ## Üzleti folyamatok modellje
+### Üzleti szereplők: 
+ **_1.)_ Felhasználók**
+  Ők azok, akik a kvízjátékot használják, tehát a kérdésekre válaszolnak, valamint a fő résztvevői az alkalmazásnak. Lehetnek gyerekek, felnőttek, oktatók vagy bárki, aki tesztelni szeretné tudását egy földrajzi kvíz kitöltésével.
+
+ **_2.)_ Kérdési adatbázis szolgáltató (JSON fájl):**
+  A kérdési adatbázis szolgáltató egy adatforrás, amely a kvízjáték számára biztosítja a kérdéseket. Jelen esetben egy JSON fájl formájában található. Ez a fájl tartalmazza a különböző kérdéseket, valamint a hozzájuk tartozó helyes és helytelen válaszokat. A kvízjáték ezen adatforrás alapján működik, és ezen keresztül jeleníti meg a felhasználóknak a kérdéseket. Ez a folyamat biztosítja, hogy a felhasználók mindig friss, változatos és helyes válaszokat találjanak a kvíz során. Ha a kérdések frissítése vagy változtatása szükséges, akkor ezt a JSON fájlt lehet módosítani, így a változások azonnal érvénybe lépnek a kvízjátékban.
+
+  ### Üzleti folyamatok:
+**_1.)_** A felhasználó a Start gombra kattint.
+
+**_2.)_** A játék indítása után eldöntheti, hogy könnyű vagy nehéz módban szeretné a kvízt kitölteni, ami pedig a kérdések számától függ, hiszen a könnyű 5 kérdést jelent, a nehéz pedig 10-et.
+
+**_3.)_** Ezután betöltődnek a kérdések a JSON fájlból, ami véletlenszerűen történik.
+
+**_4.)_** A felhasználó kijelöl egy választ és megjelenik az ellenőrző gomb, amivel értelemszerűen leellenőrizheti válaszának helyességét. Ha jól válaszol +1 pont, ha nem akkor marad az addig megszerzett pontjainak száma, illetve láthatja mi lett volna a helyes válasz. 
+
+**_5.)_** Ezt követően megjelenik a következő gomb, ami egyértelműen azt jelenti, hogy a felhasználó továbbléphet a következő kérdésre. Illetve elérhető lesz egy olyan gomb is, amivel vissza tud lépni a Start-ra a felhasználó. 
+
+**_6.)_** Az eredmények pedig a játék befejeztével kiértékelődnek majd, ami a könnyű kvíznél elért pontszám/5, a nehéz kvíznél pedig elért pontszám/10.
 
 ## Követelmények
 
 ### Funkcionális követelmények
 -Kérdések, válaszok tárolása JSON fájlban.
+
 -Megfelelő működés webes eszközön.
+
 -Felhasználóbarát, könnyen értelmezhető felület kialakítása.
+
 -Helyes, helytelen válaszok megjelenítése.
 
 ### Nem funkcionális követelmények
@@ -67,6 +89,22 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 Jelenleg a rendszer mögött nem található valódi adatbázis, hiszen az adatokat Json file-ból fogjuk használni, illetve abban fogjuk tárolni a szükséges adatokat.
 
 ## Implementációs terv
+**1.) Felhasználói interfész kialakítása:**
+- Készíteni egy felhasználói felületet a kvízjátékhoz, amely tartalmazza a "Start" gombot.
+- A "Start" gombra való kattintás elindul a kvízjáték.
+
+**2.) Kérdések és válaszok megjelenítése:**
+- A kvízjáték a kérdéseket és válaszlehetőségeket egy előre definiált JSON fájlból tölti be.
+- A kérdéseket és válaszokat dinamikusan jeleníti meg a felhasználói felületen.
+  
+**3.) Kérdéskezelés:**
+- A felhasználó választása után ellenőrizzük, hogy a válasz helyes-e.
+- A helyes válasz esetén +1 pont, ellenkező esetben pedig megjelenik melyik lett volna a helyes válasz.
+
+**4.) Pontszámítás:**
+- A felhasználó pontszámainak nyomonkövetése a helyes és helytelen válaszok alapján. 
+- A kvíz végén megjelennek a pontszámok.
+  
 
 ## Tesztterv
 Két fajta tesztet fogunk megkülönböztetni: 
