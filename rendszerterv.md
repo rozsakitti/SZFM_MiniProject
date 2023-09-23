@@ -89,6 +89,22 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 Jelenleg a rendszer mögött nem található valódi adatbázis, hiszen az adatokat Json file-ból fogjuk használni, illetve abban fogjuk tárolni a szükséges adatokat.
 
 ## Implementációs terv
+**1.) Felhasználói interfész kialakítása:**
+- Készíteni egy felhasználói felületet a kvízjátékhoz, amely tartalmazza a "Start" gombot.
+- A "Start" gombra való kattintás elindul a kvízjáték.
+
+**2.) Kérdések és válaszok megjelenítése:**
+- A kvízjáték a kérdéseket és válaszlehetőségeket egy előre definiált JSON fájlból tölti be.
+- A kérdéseket és válaszokat dinamikusan jeleníti meg a felhasználói felületen.
+  
+**3.) Kérdéskezelés:**
+- A felhasználó választása után ellenőrizzük, hogy a válasz helyes-e.
+- A helyes válasz esetén +1 pont, ellenkező esetben pedig megjelenik melyik lett volna a helyes válasz.
+
+**4.) Pontszámítás:**
+- A felhasználó pontszámainak nyomonkövetése a helyes és helytelen válaszok alapján. 
+- A kvíz végén megjelennek a pontszámok.
+  
 
 ## Tesztterv
 Két fajta tesztet fogunk megkülönböztetni: 
