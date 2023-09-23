@@ -69,6 +69,11 @@ A felületen könnyen lehet navigálni, illetve könnyű használni azt. A felü
   	    - Ha a felhasználó befejezte a kérdéssort,  megtekintheti a pontjait.
 
 ## 8. Képernyőtervek
+- Kezdő felület a Start gombbal![Képernyőterv 1](kepernyoterv1.jpg)
+  
+- Eldöntheti a felhasználó milyen kvízt szeretne játszani -> könnyű vagy nehéz![Képernyőterv 2](kepernyoterv2.jpg)
+- Kérdések-válaszok megjelenítése az alábbi módon![Képernyőterv 3](kepernyoterv3.jpg)
+- Pontszámok összesítése![Képernyőterv 4](kepernyoterv4.jpg)
 
 ## 9. Funkció - követelmény megfeleltetés
 
