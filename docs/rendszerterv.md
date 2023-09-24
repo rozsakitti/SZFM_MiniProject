@@ -4,6 +4,16 @@
 A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai országokat, illetve azok fővárosát. A rendszer további céljai közt szerepel az is, hogy az oktatók számára megkönnyítse a számonkérést. Illetve nem utolsó sorban egy remek szórakozást nyújt bárki számára amellett, hogy közben tanul is az illető.
 ## Projektterv
 
+1. A program alap UI-át megcsinálni, ebbe beleértve a főoldalon lévő gombokat és a kérdések gombjait is (ha lesz nehézségi szint azok elérését is). 
+ 2. Megcsinálni a programunkhoz tartózó fájlrendszert ebbe:
+      * Beolvasni a fájlban lévő adatokat és beilleszteni a gombjainkba
+      * Számmal tartani az elért pontokat
+3. Elválasztani a hibás és helyes válaszokat.
+4. Nehézségi fokozatok lekezelése, tesztelése.
+5. Lépésenként önellenőrzésre való lehetőség megadása, ezzel elősegítve a tanulást.
+6. Játék közben kilépési lehetőség.
+
+
 ### Projekt szerepkörök
 | Név       | Szerepkör |
 |-------------|-----------|
@@ -57,6 +67,12 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 
 ### Nem funkcionális követelmények
 -Nem regisztrációhoz kötött a használata, ezáltal nem tárolja el az eredményeket.
+
+-Hatékonyság: Fontos, hogy a program képes legyen minimális költségű eszközökön is működni.
+
+-Megbízhatóság: Mivel oktatás céljából fejlesztjük ezt a programot, fontos a megbízható és ellenőrzött adatok használata.
+
+-Felhasználhatóság: A program felhasználói felületét olyan módon kell elkészíteni, hogy akár a legfiatalabb korosztály is képes legyen minél egyszerűbben értelmezni és használni azt.
 
 ### Törvényi előírások, szabványok
 
