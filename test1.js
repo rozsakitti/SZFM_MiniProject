@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
@@ -16,9 +17,19 @@ const puppeteer = require('puppeteer');
   const hardButton = await page.$('.hard-mode-button');
 
   if (easyButton && hardButton) {
-    console.log("Az 'Easy Mode' és 'Hard Mode' gombok megjelennek a képernyőn.");
+    const logMessage = "A 'Könnyű' és 'Nehéz' gombok megjelennek a képernyőn.\n";
+
+    fs.appendFile('log.txt', logMessage, (err) => {
+      if (err) throw err;
+      console.log('Az üzenet a log fájlba mentve.');
+    });
   } else {
-    console.error("Az 'Easy Mode' vagy 'Hard Mode' gombok nem találhatók a képernyőn.");
+    const logMessage = "A 'Könnyű' vagy 'Nehéz' gombok nem találhatók a képernyőn.\n";
+
+    fs.appendFile('log.txt', logMessage, (err) => {
+      if (err) throw err;
+      console.log('Az üzenet a log fájlba mentve.');
+    });
   }
 
   await browser.close();
