@@ -86,6 +86,27 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 
 ### Törvényi előírások, szabványok
 
+1.	Adatvédelem és Adatvédelmi Irányelvek (GDPR):
+•	A felhasználók személyes adatainak védelméről és kezeléséről szóló európai rendelet. Biztosítani kell, hogy az adatokat biztonságosan tároljuk és kezeljük.
+
+2.	Szellemi Tulajdonjogok és Tartalomvédelem:
+•	Meg kell győződni arról, hogy a kvíz tartalma nem sért semmilyen szerzői jogot vagy más szellemi tulajdont.
+•	Nem szabad olyan alkalmazást létrehoznunk, amely bármilyen módon félrevezeti a felhasználókat.
+•	Ne próbáljuk meg más személynek vagy alkalmazásnak tettetni magunkat.
+
+3.	Spam és használhatóság:
+•	Minimális követelmény az alkalmazások felé, hogy valamilyen alapszintű funkcionalitást és tisztességes felhasználói élményt biztosítsanak.
+•	Ne omoljon össze az alkalmazás használat közben.
+
+4.	Kiskorúak Védelme:
+•	Fontos, hogy megfelelő intézkedéseket tegyünk annak érdekében, hogy a kvíz ne tartalmazzon olyan anyagokat, amelyek nem megfelelőek vagy károsak lehetnek kiskorúak számára.
+
+5.	Hozzáférési és Használati Korlátozások:
+•	Feltehetően szabályozni kell, ki használhatja az alkalmazást, valamint a felhasználókmit tehetnek és nem tehetnek.
+
+6.	Fizetések és Tranzakciók (ha alkalmazható):
+•	Ha az alkalmazásban fizetési folyamatok vannak, biztosítani kell, hogy azok biztonságosak és megfelelnek a vonatkozó jogszabályoknak.
+
 ## Funkcionális terv
 ![Folyamat](folyamat.png)
 
@@ -105,14 +126,23 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 - A rendszer asztali számítógépekre készül jelenleg
 - Használható Windows, Linux és MacOS rendszeren is használható
 - Bármely ismert asztali számítógépen is futó böngészőre van szükség (Google Chrome, Firefox...)
-- Fejlesztői eszközök:
+
+##Fejlesztői eszközök:
   - Visual Studio Code
   - Visual Studio
   - Node.JS
   - Github
+
+A fejlesztés során használt eszközök és technológiák magukban foglalják a Visual Studio Code-ot és a Visual Studio-t a kódszerkesztéshez, a Node.JS-t a JavaScript környezet biztosításához, valamint a GitHub-ot a verziókezeléshez és a csapatmunka támogatásához.
  
 ## Adatbázis terv
 Jelenleg a rendszer mögött nem található valódi adatbázis, hiszen az adatokat Json file-ból fogjuk használni, illetve abban fogjuk tárolni a szükséges adatokat.
+
+JSON file-ról:
+* Az alkalmazásunk a kérdéseket és válaszlehetőségeket egy JSON fájlból tölti be.
+* Ez a fájl tartalmazza a különböző kérdéseket, valamint a hozzájuk tartozó helyes és helytelen válaszokat.
+* A JSON fájl könnyen szerkeszthető, ami lehetővé teszi a kérdések gyors frissítését vagy módosítását, így a változások azonnal érvénybe lépnek a kvízjátékban.
+*  Ez biztosítja, hogy a felhasználók mindig friss, változatos és helyes válaszokat találjanak a kvíz során.
 
 ## Implementációs terv
 **1.) Felhasználói interfész kialakítása:**
@@ -141,7 +171,8 @@ Két fajta tesztet fogunk megkülönböztetni:
   - Felhasználói élmény figyelése (Ha már a fejlesztő/tesztelő nem találja komfortosnak a felületet használva, akkor a felhasználó végképp nem fogja)
 
 ## Telepítési terv
-Nincs szükség külön telepítő csomagokra, hiszen az alkalmazás webes rendszeren fut. Alkalmazás "telepítési" folyamata: A link birtokában megnyitható a böngészőben.
+Nincs szükség külön telepítő csomagokra, hiszen az alkalmazás webes rendszeren fut.(Esetleg ajánlott a szoftver webes felületéhez egy böngésző telepitése, Google Chrome, Firefox, Opera, Safari).
+Alkalmazás "telepítési" folyamata: A link birtokában megnyitható a böngészőben.
 
 ## Karbantartási terv
 ELsősorban a visszajelzésekre támaszkodva fogjuk karbantartani a rendszert. Nem csak az esetleges hibák javítását fogjuk végezni, de az olyan fejlesztési ötleteket is megvalósítjuk, amelyek javítják a felhasználói élményt.
