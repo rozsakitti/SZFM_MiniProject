@@ -29,9 +29,19 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 | Json file feltöltése adatokkal | 2023. 09. 22 |
 | A program üzleti folyamatának pontos leírása | 2023. 09. 22 |
 | A program üzleti folyamatok programozása | 2023. 09. 24 |
+| A program tesztelése | 2023. 09. 24 | 
 | A program kinézetének megvalósítása | 2023. 09. 24 |
 
 ### Mérföldkövek
+
+| Feladat |
+|---------|
+| A program alapvető kinézetének megléte |
+| A program a nehézségi szintnek megfelőlő játékot indít |
+| A program összegzi az elért eredményt |
+| A program tesztelése |
+| A tesztlog kitöltése |
+| A program kinézetének dizájnolása |
 
 ## Üzleti folyamatok modellje
 ### Üzleti szereplők: 
