@@ -127,7 +127,7 @@ A rendszer fő célja, hogy a diákok könnyebben tanulják meg az európai orsz
 - Használható Windows, Linux és MacOS rendszeren is használható
 - Bármely ismert asztali számítógépen is futó böngészőre van szükség (Google Chrome, Firefox...)
 
-##Fejlesztői eszközök:
+## Fejlesztői eszközök:
   - Visual Studio Code
   - Visual Studio
   - Node.JS
