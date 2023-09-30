@@ -23,3 +23,15 @@
 | 19 | 2023.09.28 | Kovács Dávid | "Ellenőriz" gomb megnyomása bezöldíti a helyes választ | ✅ | ✅ |
 | 20 | 2023.09.28 | Kovács Dávid | Rossz válasz esetén az "Ellenőriz" gomb megnyomása pirosra színezi a választott választ | ✅ | ✅ |
 | 21 | 2023.09.28 | Kovács Dávid | "Ellenőriz" gomb megnyomása megjeleníti az eddigi elért pontot | ✅ | ✅ |
+| 22 | 2023.09.30 | Halász Kata  | "Nehéz" gomb megnyomása elindítja a "Nehéz" játékot | ✅ | ✅ |
+| 23 | 2023.09.30 | Halász Kata  | "Nehéz" játék felületen megjelenik a kérdés, négy válasz, illetve az "Exit" gomb | ✅ | ✅ |
+| 24 | 2023.09.30 | Halász Kata  | "Nehéz" játékban egy másik válasz lehetőséget annak stílusa megváltozik, másikról leszedi a stílust | ✅ | ✅ |
+| 25 | 2023.09.30 | Halász Kata  | "Ellenőriz" gomb megnyomása bezöldíti a helyes választ | ✅ | ✅ |
+| 26 | 2023.09.30 | Halász Kata  | Rossz válasz esetén az "Ellenőriz" gomb megnyomása pirosra színezi a választott választ | ✅ | ✅ |
+| 27 | 2023.09.30 | Halász Kata  | "Ellenőriz" gomb megnyomása megjeleníti az eddigi elért pontot | ✅ | ✅ |
+| 28 | 2023.09.30 | Halász Kata  | "Következő" gomb megnyomás hatására átirányít egy másik kérdésre | ✅ | ✅ |
+| 29 | 2023.09.30 | Halász Kata  | "Vége" gomb megnyomás hatására átirányít egy másik felületre | ✅ | ✅ |
+| 30 | 2023.09.30 | Halász Kata  | "Vége" gomb megnyomását követően helyesen megjelenik a pontos elért eredmény | ✅ | ✅ |
+| 31 | 2023.09.30 | Halász Kata  | "Exit" gombot megnyomva visszadob a kezdőfelületre | ✅ | ✅ |
+| 32 | 2023.09.30 | Halász Kata  | "Exit" gombot megnyomva visszaállítja 0-ra a jelenlegi pont, és a maximális pont értékét | ✅ | ✅ |
+| 33 | 2023.09.30 | Halász Kata  | "Exit" gombot megnyomva visszaállítja 0-ra a jelenlegi kérdések, és a maximális kérdések értékét | ✅ | ✅ |
