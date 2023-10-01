@@ -35,14 +35,39 @@
 | 31 | 2023.09.30 | Halász Kata  | "Exit" gombot megnyomva visszadob a kezdőfelületre | ✅ | ✅ |
 | 32 | 2023.09.30 | Halász Kata  | "Exit" gombot megnyomva visszaállítja 0-ra a jelenlegi pont, és a maximális pont értékét | ✅ | ✅ |
 | 33 | 2023.09.30 | Halász Kata  | "Exit" gombot megnyomva visszaállítja 0-ra a jelenlegi kérdések, és a maximális kérdések értékét | ✅ | ✅ |
-| 34 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Start" gombra kattintok | ✅ | ✅ |
-| 35 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Könnyű" gombra kattintok | ✅ | ✅ |
-| 36 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Nehéz" gombra kattintok | ✅ | ✅ |
-| 37 | 2023.10.01 | Rózsa Kitti Evelin  | Ha rákkatintok egy válasz lehetőségre, akkor a háttérszín zöld lesz, a betűszín pedig fehér. | ✅ | ✅ |
-| 38 | 2023.10.01 | Rózsa Kitti Evelin  | A "Könnyű" gombra kattintva a megfelelő kérdéshez a megfelelő válaszok jelennek meg. | ✅ | ✅ |
-| 39 | 2023.10.01 | Rózsa Kitti Evelin  | A "Nehéz" gombra kattintva a megfelelő kérdéshez a megfelelő válaszok jelennek meg. | ✅ | ✅ |
-| 40 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban a megfelelő választ jelöli helyesnek(zöldnek), miután a felhasználó az "Ellenőriz" gombra kattint. | ✅ | ✅ |
-| 41 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban a megfelelő választ jelöli helyesnek(zöldnek), miután a felhasználó az "Ellenőriz" gombra kattint. | ✅ | ✅ |
-| 42 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban a megfelelő választ jelöli helytelennek(pirosnak), miután a felhasználó az "Ellenőriz" gombra kattint. | ✅ | ✅ |
-| 43 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban a megfelelő választ jelöli helytelennek(pirosnak), miután a felhasználó az "Ellenőriz" gombra kattint. | ✅ | ✅ |
-| 44 | 2023.10.01 | Rózsa Kitti Evelin  | Microsoft Edge böngészőben megfelelően elindul. | ✅ | ✅ |
+| 34 | 2023.10.01 | Rózsa Kitti Evelin  | Microsoft Edge böngészőben megfelelően elindul az alkalmazás. | ✅ | ✅ |
+| 35 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Start" gombra kattintok Chrome-ban. | ✅ | ✅ 
+| 36 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Start" gombra kattintok Microsoft Edge-ben. | ✅ | ✅ |
+| 37 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Könnyű" gombra kattintok Chrome-ban. | ✅ | ✅ |
+| 38 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Könnyű" gombra kattintok Microsoft Edge-ben.| ✅ | ✅ |
+| 39 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Nehéz" gombra kattintok Chrome-ban. | ✅ | ✅ |
+| 40 | 2023.10.01 | Rózsa Kitti Evelin  | A háttérkép megfelelően megjelenik, ha a "Nehéz" gombra kattintok Microsoft Edge-ben. | ✅ | ✅ |
+| 41 | 2023.10.01 | Rózsa Kitti Evelin  | Ha rákkatintok egy válasz lehetőségre, akkor a háttérszín zöld lesz, a betűszín pedig fehér Chrome-ban. | ✅ | ✅ |
+| 42 | 2023.10.01 | Rózsa Kitti Evelin  | Ha rákkatintok egy válasz lehetőségre, akkor a háttérszín zöld lesz, a betűszín pedig fehér Microsoft Edge-ben. | ✅ | ✅ |
+| 43 | 2023.10.01 | Rózsa Kitti Evelin  | A "Könnyű" gombra kattintva a megfelelő kérdéshez a megfelelő válaszok jelennek meg Chrome-ban. | ✅ | ✅ |
+| 44 | 2023.10.01 | Rózsa Kitti Evelin  | A "Könnyű" gombra kattintva a megfelelő kérdéshez a megfelelő válaszok jelennek meg Microsoft Edge-ben. | ✅ | ✅ |
+| 45 | 2023.10.01 | Rózsa Kitti Evelin  | A "Nehéz" gombra kattintva a megfelelő kérdéshez a megfelelő válaszok jelennek meg Chrome-ban. | ✅ | ✅ |
+| 46 | 2023.10.01 | Rózsa Kitti Evelin  | A "Nehéz" gombra kattintva a megfelelő kérdéshez a megfelelő válaszok jelennek meg Microsoft Edge-ben. | ✅ | ✅ |
+| 47 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban a megfelelő választ jelöli helyesnek(zöldnek), miután a felhasználó az "Ellenőriz" gombra kattint Chrome-ban. | ✅ | ✅ |
+| 48 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban a megfelelő választ jelöli helyesnek(zöldnek), miután a felhasználó az "Ellenőriz" gombra kattint Microsoft Edge-ben. | ✅ | ✅ |
+| 49 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban a megfelelő választ jelöli helyesnek(zöldnek), miután a felhasználó az "Ellenőriz" gombra kattint Chrome-ban. | ✅ | ✅ |
+| 50 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban a megfelelő választ jelöli helyesnek(zöldnek), miután a felhasználó az "Ellenőriz" gombra kattint Microsoft Edge-ben. | ✅ | ✅ |
+| 51 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban a megfelelő választ jelöli helytelennek(pirosnak), miután a felhasználó az "Ellenőriz" gombra kattint Chrome-ban. | ✅ | ✅ |
+| 52 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban a megfelelő választ jelöli helytelennek(pirosnak), miután a felhasználó az "Ellenőriz" gombra kattint Microsoft Edge-ben. | ✅ | ✅ |
+| 53 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban a megfelelő választ jelöli helytelennek(pirosnak), miután a felhasználó az "Ellenőriz" gombra kattint Chrome-ban. | ✅ | ✅ |
+| 54 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban a megfelelő választ jelöli helytelennek(pirosnak), miután a felhasználó az "Ellenőriz" gombra kattint Microsoft Edge-ben. | ✅ | ✅ |
+| 55 | 2023.10.01 | Rózsa Kitti Evelin  | test1.js megírva, mely teszteli, hogy a "Könnyű" és "Nehéz" gombok megfelelően megjelennek Chrome-ban. | ✅ | ✅ |
+| 56 | 2023.10.01 | Rózsa Kitti Evelin  | test1.js megírva, mely teszteli, hogy a "Könnyű" és "Nehéz" gombok megfelelően megjelennek Microsoft Edge-ben. | ✅ | ✅ |
+| 57 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban, ha rátolom a kurzort a választani kívánt válaszra, akkor a megfelelő hover jelenik meg Chrome-ban. | ✅ | ✅ |
+| 58 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban, ha rátolom a kurzort a választani kívánt válaszra, akkor a megfelelő hover jelenik meg Microsoft Edge-ben. | ✅ | ✅ |
+| 59 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban, ha rátolom a kurzort a választani kívánt válaszra, akkor a megfelelő hover jelenik meg Chrome-ban. | ✅ | ✅ |
+| 60 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban, ha rátolom a kurzort a választani kívánt válaszra, akkor a megfelelő hover jelenik meg Microsoft Edge-ben. | ✅ | ✅ |
+| 61 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban tesztelve, hogy a pontszámok a jó és rossz válaszok függvényében helyesen íródnak ki a felületre Chrome-ban. | ✅ | ✅ |
+| 62 | 2023.10.01 | Rózsa Kitti Evelin  | "Könnyű" módban tesztelve, hogy a pontszámok a jó és rossz válaszok függvényében helyesen íródnak ki a felületre Microsoft Edge-ben. | ✅ | ✅ |
+| 63 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban tesztelve, hogy a pontszámok a jó és rossz válaszok függvényében helyesen íródnak ki a felületre Chrome-ban. | ✅ | ✅ |
+| 64 | 2023.10.01 | Rózsa Kitti Evelin  | "Nehéz" módban tesztelve, hogy a pontszámok a jó és rossz válaszok függvényében helyesen íródnak ki a felületre Microsoft Edge-ben. | ✅ | ✅ |
+
+
+
+
+
